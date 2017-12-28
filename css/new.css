@@ -1,0 +1,182 @@
+body{
+	font: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+img{
+	max-width: 100%;
+}
+/*导航栏部分*/
+.nav{
+	padding:0px;
+	margin: 0px;
+}
+.nav a{
+	text-decoration: none;
+}
+.nav p{
+	margin: 0px;
+	padding: 0px;
+}
+.nav-main{
+	width: 100%;
+	clear: both;
+	border-top: 5px solid #019443;
+	border-bottom: 2px solid #dbdbdb;
+	padding: 15px;
+}
+.home{
+	font-size: 1.125em;
+	font-weight: 600;
+	color: #747474;
+	margin: 10px 15px;
+	border-left: none;
+}
+.home:visited{
+	color:#747474;
+}
+.home:hover{
+	color: #747474;
+	cursor: default;
+}
+.a-c{
+	color: #292929;
+	font-size: 1.125em;
+	font-weight: 600;
+	padding: 5px 15px;
+	border-left: 1px solid #c8c8c8;
+}
+.a-c:hover{
+	color: #019443;
+}
+.pagetop{
+	max-width:200px;
+	text-align: center;
+	float: right;
+	margin-top: 30px;
+}
+#logo{
+	margin-top:0px;
+	margin-left:0px;
+	float: left;
+}
+.yuan{
+	display: block;
+	color:#fff;
+	width: 35px;
+	height: 35px;
+	font-weight:1000;
+	background-color:#019443;
+	border-radius:50%;
+	line-height:35px;
+	margin-left: 5px;
+}
+.yuan:hover{
+	background-color: #0000ff;
+}
+
+/*标签*/
+ul,li{
+	margin: 0px;
+	max-width: 980px;
+	list-style:none;
+	list-style-type:none;
+	float: left;
+}
+body{
+	max-width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+	font: 100%;
+}
+/*page*/
+#page{
+	padding: 0px;
+	width: 100%;
+	float: left;
+}
+#page  a{
+	text-decoration: none;
+}
+#page a:hover{
+	text-decoration: underline;
+}
+.more:after{
+	content:" »";
+}
+#main{
+	width: 65%;
+	float: left;
+	border-right: 3px solid #dbdbdb;
+}
+h1{
+	font-weight: 300;
+	line-height: .975;
+    margin-bottom: .4125em;
+    font-size: 3.25em;
+}
+.pagination{
+	padding: 45px 20px;
+}
+.pagination li{
+	margin-left: 3px;
+	font-size: small;
+}
+.post{
+	text-align: left;
+}
+.post img{
+	margin: 10px;
+}
+.footer{
+	border-top: 1px solid #dbdbdb;
+	border-bottom: 1px solid #dbdbdb;
+	font-size: small;
+	clear: both;
+}
+.footer p{
+	margin: 5px;
+}
+/*侧边*/
+#sidebar{
+	max-width: 30%;
+	float: left;
+	padding: 20px;
+}
+#siderbar img{
+	max-width: 100%;
+}
+#sidebar h2{
+	font-size: .875em;
+}
+.about{
+	background: #2b2b2b;
+    padding: 0.313em 0.625em 0.625em;
+}
+
+.about h2,
+.about p{
+	color: #dadada;
+}
+.about p{
+	font-size: 0.813em;
+}
+.about img{
+    border: 5px solid #bebebe;
+    display: block;
+    margin: 0 auto;
+}
+.mod h2{
+    border-bottom: 1px solid #dbdbdb;
+    margin-top: 50px;
+    padding-bottom: .75em;
+}
+.mod2{
+	margin-top: 50px;
+}
+.links{
+	min-height: 200px;
+}
+.links li{
+	margin-top: 10px;
+}
